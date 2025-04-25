@@ -1,0 +1,18 @@
+{
+    "name": "driverpro-api",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "firebase-admin": "^11.11.0",
+      "@sendgrid/mail": "^7.7.0",
+      "dotenv": "^16.3.1",
+      "cors": "^2.8.5"
+    },
+    "engines": {
+      "node": "18.x"
+    }
+  }
