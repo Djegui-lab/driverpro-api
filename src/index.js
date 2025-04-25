@@ -8,6 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("Bienvenue sur l'API DriverPro 🚗✨");
+});
+
 app.use('/api/reservations', require('./routes/reservations'));
 
 // Démarrer le serveur
